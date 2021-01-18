@@ -1,0 +1,134 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rachelkline/Desktop/practiceCard/HighLowCards
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50078
+Successfully changed project path to: /Users/rachelkline/Desktop/practiceCard/HighLowCards
+/Users/rachelkline/Desktop/practiceCard/HighLowCards
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rachelkline/Desktop/practiceCard/HighLowCards/Assets
+GfxDevice: creating device client; threaded=0
+2021-01-17 19:34:32.183 Unity[2329:29861] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+2021-01-17 19:34:32.183 Unity[2329:29861] Metal devices available: 1
+2021-01-17 19:34:32.183 Unity[2329:29861] 0: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+2021-01-17 19:34:32.184 Unity[2329:29861] Using device Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 650
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56329
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001228 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 44.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.640 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 75.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.970 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.3 MB.
+System memory in use after: 140.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2238.
+Total: 5.916605 ms (FindLiveObjects: 1.057017 ms CreateObjectMapping: 0.227271 ms MarkObjects: 4.429720 ms  DeleteObjects: 0.190166 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PlayerScript.cs
+  artifactKey: Guid(8914292a175db4edcb2ed6053a24109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScript.cs using Guid(8914292a175db4edcb2ed6053a24109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536cf87e68da574e5d32c8c70ac0bd65') in 1.758189 seconds
+  Import took 1.867813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1249.930514 seconds.
+  path: Assets/Scripts/CardStack.cs
+  artifactKey: Guid(8a7e6764a4208455eb77ebf239c1a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardStack.cs using Guid(8a7e6764a4208455eb77ebf239c1a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901839d960690fb1576179535b259e16') in 0.050685 seconds
+  Import took 0.086100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026577 seconds.
+  path: Assets/Scripts/CardStack.cs
+  artifactKey: Guid(8a7e6764a4208455eb77ebf239c1a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardStack.cs using Guid(8a7e6764a4208455eb77ebf239c1a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901839d960690fb1576179535b259e16') in 0.001783 seconds
+  Import took 0.005931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.002674 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(6176fd1c28ff94c968535d2f72f69e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(6176fd1c28ff94c968535d2f72f69e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66370cebd793a9f8aac4e86d3feb2f6') in 0.002473 seconds
+  Import took 0.007217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022766 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(6176fd1c28ff94c968535d2f72f69e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(6176fd1c28ff94c968535d2f72f69e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66370cebd793a9f8aac4e86d3feb2f6') in 0.001566 seconds
+  Import took 0.005309 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.0 MB.
+System memory in use after: 145.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2241.
+Total: 4.667324 ms (FindLiveObjects: 0.625117 ms CreateObjectMapping: 0.124944 ms MarkObjects: 3.600616 ms  DeleteObjects: 0.315201 ms)
+
