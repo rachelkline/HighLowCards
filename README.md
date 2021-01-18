@@ -18,6 +18,7 @@
     - [Creating The Deck](#creating-the-deck)
     - [Shuffling](#shuffling)
     - [Betting](#Betting)
+  - [Designs](#designs)
   - [Usage](#usage)
   - [Technologies](#technologies)
   - [Questions](#questions)
@@ -59,6 +60,21 @@ The deck is shuffled upon starting the game. As the player continues to play, th
 
  ---
 This was probably my favorite part of this project! In the Player Script, I gave the player a 'bank account' with $20 upon starting the game. In the Game Controller Script, I created a few methods to alter this bank account every time the player clicks on the desired chip! After the player deals the cards and the results are shown, the player's bank account is correctly updated depending on the outcome of the game.
+ 
+  ---
+ 
+ ## Designs
+   ---
+ 
+ Here are a few of the cards I designed for this game. I drew these cards using Adobe Illustrator and Adobe Fresco.
+
+ ![IMAGE](rmImgs/IMG_0198.PNG) 
+  
+  ![IMAGE](rmImgs/IMG_0201.PNG)
+ 
+ ![IMAGE](rmImgs/IMG_02021.PNG)
+
+ ![IMAGE](rmImgs/IMG_0202.PNG)
  
  ---
 <img src = "rmImgs/laptop-house-solid.svg" width="40">
